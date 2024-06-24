@@ -1,0 +1,443 @@
+ body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow-x  : hidden;
+ }
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.1rem;
+  padding-right: 2rem;
+  padding-left: 1.5rem;
+  font-weight: 600;
+  
+ 
+
+ 
+}
+
+.center{
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+  
+}
+.left{
+  font-size: 1.5rem;
+
+
+
+}
+
+.Front{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+ 
+ 
+ 
+}
+.Front .left{
+  display: flex;
+  font-size: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 100;
+  gap: 20px;
+  height: 30vh;
+ 
+ 
+}
+.leftcontainer{
+  overflow: hidden;
+}
+
+
+.Front .right{
+  display: flex;
+  font-size: 1rem;
+  font-family: "Josefin Sans", sans-serif; 
+  gap: 20px;
+  height: 30vh;
+}
+.Front .centre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+ text-decoration: line-through;
+ text-transform: inherit;
+  border-radius: 30px;
+  color:black;
+  width:50vw;
+  height: 40vh;
+ 
+  padding-bottom: 10rem;
+
+ 
+}
+.firstcont{
+overflow: hidden;
+  
+}
+.secondcontainer{
+  overflow: hidden;
+ 
+ 
+}
+.centrecontainer{
+  overflow: hidden;
+}
+
+.about{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(24, 83, 24);
+  font-family: "Josefin Sans", sans-serif;
+  
+
+ border-top-right-radius: 30px;
+ border-top-left-radius: 30px;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 2rem;
+ 
+}
+.para{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-direction: column;
+ gap: 3rem;
+}
+
+.para1{
+  font-family: "Livvic", sans-serif;
+  font-size: 2.6rem;
+  padding-left: 0.8rem;
+}
+.para2{
+  font-family: "Livvic", sans-serif;
+  font-size: 2.6rem;
+  padding-bottom: 2rem;
+  
+
+}
+.head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25rem;
+  border-bottom: 2px solid white;
+  font-size: 2rem;
+}
+ 
+.hide {
+ 
+  color:rgb(24, 83, 24) ; 
+}
+
+.bold{
+font-weight: 800;
+}
+.under{
+  text-decoration: underline;
+  
+}
+
+.pro{
+  height: 100vh;
+  width: 100%;
+  color: black;
+  font-family: "Anton", sans-serif;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-left: .5rem;
+
+ 
+}
+.pro .left{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+
+}
+.pro .right{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+.pro .centre{
+ 
+  font-size: 6.3rem;
+}
+
+.Project .one{
+ 
+  width: 100%;
+  height: 100vh;
+}
+
+.Project .two{
+
+  width: 100%;
+  height: 100vh;
+}
+.Project .three{
+  background-color: rgba(111, 69, 69, 0.663);
+  width: 100%;
+  height: 100vh;
+}
+
+
+.tools{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  padding-top: 5rem;
+}
+.carousal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  font-family: "Livvic", sans-serif;
+  font-size: 2rem;
+  white-space: nowrap;
+
+}
+.heading{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.2rem;
+  width: 25vw;
+  height: 20vh;
+  padding-right: 65rem;
+  border-bottom: 2px solid black;
+
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+
+}
+
+
+.work{
+  padding-right: 20rem;
+  padding-top: 5rem;
+  border-bottom: 2px solid white;
+  width: 65vw;
+}
+.number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  font-size: 1.6rem;
+  padding-right: 20rem;
+  
+}
+.email{
+  width: 20vw;
+  height: 5vh;
+ 
+  border-radius: 50px;
+  border: 2px solid white;
+  padding: 4rem;
+  padding-top: 1rem;
+}
+.phone{
+  width: 14vw;
+  height: 5vh;
+ 
+  border-radius: 50px;
+  border: 2px solid white;
+  padding: 4rem;
+  padding-top: 1rem;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  gap: 3rem;
+  padding-left: 65rem;
+
+ 
+}
+.one{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+ 
+}
+.one img{
+  width: 70%;
+  height: 70%;
+  border-radius: 25px;
+  
+}
+
+.top{
+  position: absolute;
+  top: 340vh;
+  left: 39vw;
+  font-size:5rem;
+  font-family: "Anton", sans-serif;
+  color: black;
+ 
+  
+}
+.two img{
+  width: 70%;
+  height: 70%;
+  border-radius: 25px;
+  
+}
+.two{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.middle{
+  position: absolute;
+  top: 440vh;
+  left: 39vw;
+  font-size:5rem;
+  font-family: "Anton", sans-serif;
+  color: rgb(234, 255, 0);
+}
+.low{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.last{
+  position: absolute;
+  top: 520vh;
+  left: 40vw;
+  font-size:5rem;
+  font-family: "Anton", sans-serif;
+  color: rgb(215, 212, 18);
+}
+.low img{
+  width: 70%;
+  height: 80%;
+  border-radius: 25px;
+}
+.design{
+  width: 100%;
+  height: 100vh;
+  background-color:rgb(24, 83, 24);
+
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  align-items: center;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+
+}
+
+.design span{
+  color: white;
+  font-size: 2.7rem;
+  font-family: "Livvic", sans-serif;
+ 
+}
+
+.oi{
+ 
+  width: 200%;
+  height: 80%;
+ 
+  
+  border-radius: 30px;
+  padding-left: 5rem;
+}
+.oi img{
+  height: 100%;
+  width: 100%;
+  
+}
+
+.design .bold{
+font-weight: 800;
+}
+.design .font{
+  font-weight: 600;
+  font-family: "Anton", sans-serif;
+  font-size: 2.4rem;
+  }
+
+  .top h2{
+    overflow: hidden;
+  }
+  .loader{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader span{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 5rem;
+  }
+  .load{
+    overflow: hidden;
+  }
+  .l{
+    overflow: hidden;
+  }
+  .Project{
+  
+  }
